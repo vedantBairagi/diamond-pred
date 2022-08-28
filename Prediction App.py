@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 import pickle
+import numpy as np
 st.set_page_config(page_title='Diamond Price Prediction', page_icon='icon2.png')
 st.write("# Diamond Price Prediction")
 
